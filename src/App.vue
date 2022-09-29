@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="h-screen flex-col flex justify-center items-center">
+  <div class="flex h-screen flex-col items-center justify-center">
     <div>
       <router-link to="/">home</router-link>
       <router-link to="/about">about</router-link>

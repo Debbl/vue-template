@@ -9,6 +9,7 @@ specifiers:
   eslint: ^8.24.0
   eslint-config-prettier: ^8.5.0
   eslint-plugin-prettier: ^4.2.1
+  eslint-plugin-tailwindcss: ^3.6.2
   eslint-plugin-vue: ^9.5.1
   postcss: ^8.4.16
   prettier: ^2.7.1
@@ -32,6 +33,7 @@ devDependencies:
   eslint: 8.24.0
   eslint-config-prettier: 8.5.0_eslint@8.24.0
   eslint-plugin-prettier: 4.2.1_cfn5x6ujhhgzv3423d6k7r2zzm
+  eslint-plugin-tailwindcss: 3.6.2
   eslint-plugin-vue: 9.5.1_eslint@8.24.0
   postcss: 8.4.16
   prettier: 2.7.1
@@ -914,6 +916,17 @@ packages:
       eslint-config-prettier: 8.5.0_eslint@8.24.0
       prettier: 2.7.1
       prettier-linter-helpers: 1.0.0
+    dev: true
+
+  /eslint-plugin-tailwindcss/3.6.2:
+    resolution: {integrity: sha512-C9Ka3w6W9F5l/3ZDLnkdbqmeujc1vE+p5drjP1Z1UyxgoE1Nh4/f8oQ4XC45PrZsS0Nyv0YKXNH8/dn/FJZKsQ==}
+    engines: {node: '>=12.13.0'}
+    dependencies:
+      fast-glob: 3.2.12
+      postcss: 8.4.16
+      tailwindcss: 3.1.8_postcss@8.4.16
+    transitivePeerDependencies:
+      - ts-node
     dev: true
 
   /eslint-plugin-vue/9.5.1_eslint@8.24.0:
